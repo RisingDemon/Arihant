@@ -1,0 +1,36 @@
+.appForm{
+    /* height: 30%; */
+    width: 80%;
+    display: flex;
+    background-color: #D7EFFC;
+    margin: 25px auto;
+}
+.formLayout{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+.formInput{
+    height: 40px;
+    padding: 0;
+    width: 100%;
+    background-color: inherit;
+    border: 0;
+    border-bottom: 2px solid #FDB913;
+    margin: 0;
+}
+.message{
+    width: 100%;
+    height: 80px;
+}
+.formButton{
+    height: 41px;
+    width: 100%;
+    border: none;
+    background-color: #FDB913;
+    color: #1F2B6C;
+    font-size: 16px
+}

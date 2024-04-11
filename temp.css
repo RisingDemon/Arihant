@@ -1,0 +1,16 @@
+.sec{
+    background-color: #1F2B6C !important;
+}
+.sec li a{
+    color: white !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .sec li a{
+        color: yellow !important;
+    
+    }
+    .details-list{
+        flex-direction: column;
+    }
+}

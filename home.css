@@ -1,0 +1,822 @@
+/* main content */
+.main-img {
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+}
+
+.img1 {
+    z-index: 1;
+    width: 100%;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 550px;
+}
+
+.img-text {
+    /* Group 6 */
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    float: left;
+    width: 640px;
+    /* height: 216px; */
+    left: 186px;
+    top: 327px;
+}
+@media screen and (max-width: 768px){
+    .img1{
+        position: absolute;
+        z-index: 1;
+        width: 175%;
+        height: 347px;
+        left: -75%;
+        opacity: 0.4;
+    }
+    .main-img{
+        height: 345px;
+    }
+    .img2,.img3{
+        display: none;
+    }
+    .img-text h1{
+        font-size: 28px !important;
+    }
+    .img-text h3{
+        font-size: 16px !important;
+    }
+    .img-text{
+        width: fit-content;
+        top: 262px;
+        left: 72px;
+    }
+    .heading1{
+        line-height: 52px !important;
+        margin-top: 13px !important;
+    }
+    
+}
+
+.accent {
+
+    margin-bottom: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin: 0;
+    /* Secondary */
+    color: #77C6F3;
+}
+
+.heading1 {
+    /* Leading the Way in Medical Excellence */
+
+    left: 186px;
+    top: 356px;
+
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 850;
+    font-size: 48px;
+    line-height: 70px;
+
+    /* Primary */
+    color: #1F2B6C;
+}
+
+.img-btn {
+    height: 43px;
+    width: 140px;
+    background-color: #FDB913;
+    border-radius: 60px;
+    display: inline-block;
+    border: 0;
+    align-items: center;
+    display: flex;
+    /* vertical-align: middle; */
+    justify-content: center
+}
+
+.sub-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 675px;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+
+@media screen and (max-width: 768px) {
+    .sub-features {
+        flex-direction: column;
+        align-items: center;
+        position: unset;
+
+    }
+
+    .feat {
+        margin: 15px 0;
+    }
+
+    .details-list {
+        flex-direction: column !important;
+        gap: 15px !important;
+        align-items: center !important;
+    }
+
+    .list1 {
+        text-align: center !important;
+    }
+}
+
+.sub1 {
+    float: left;
+    display: inline;
+    width: 104px;
+    padding-right: 20px;
+    color: white;
+    font-family: 'Be Vietnam Pro';
+}
+
+.subimg1 {
+    float: right;
+    display: inline;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.feat {
+    height: 70px;
+    border-radius: 10px;
+    padding: 4px 12px 4px 20px;
+    width: 255px;
+}
+
+/* main content ends */
+
+/* why arihant */
+.details-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    width: 70%;
+}
+
+.details-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.list1 {
+    /* EXCELLENCE PROVEN BY NUMBERS */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    width: 201.42px;
+    color: #000000;
+}
+
+.count {
+    /* Group 258 */
+    width: 99px;
+    height: 91px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.count h1 {
+    /* 100 */
+    font-family: 'Intro Cond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+}
+
+.count h3 {
+    /* Open Heart Surgeries */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.details-section hr {
+    background-color: #000000;
+    width: 70%;
+    height: 4px;
+}
+
+/* why arihant ends */
+
+/* welcome section */
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .welcome-section h1{
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+} */
+.welcome-para {
+    width: 50%;
+    /* height: 110px; */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* Black */
+    color: #212124;
+}
+
+.welcome-section a {
+    text-decoration: none;
+    color: #77C6F3;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome {
+        margin-top: 40px !important;
+    }
+    
+}
+
+/* .welcome-section h3{
+    font-family: 'Be Vietnam Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+margin-top: 0;
+/* flex: none;
+order: 1;
+flex-grow: 0; */
+
+/* welcome section ends */
+
+/* doctor image */
+.doc-img {
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+}
+
+.doc1 {
+    position: absolute;
+    z-index: 1;
+    width: 55%;
+    height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .doc1 {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .doc2 {
+        width: 100% !important;
+    }
+
+    .doc3 {
+        width: 100% !important;
+    }
+
+    .listAlign ul {
+        font-size: 16px !important;
+        column-gap: 24px;
+    }
+
+    .services {
+        flex-direction: column !important;
+        align-items: center;
+        width: 100% !important;
+    }
+
+    .sideInfo {
+        width: 100% !important;
+
+    }
+
+    .sideInfoImg {
+        margin: 27px;
+    }
+
+    .sideInfoImg img {
+        padding: 15px;
+    }
+}
+
+.doc2 {
+    position: absolute;
+    z-index: 2;
+    width: 55%;
+    height: 250px;
+}
+
+.doc3 {
+    z-index: 3;
+    height: 8px;
+    width: 95%;
+}
+
+.temp9 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+/* doctor image ends */
+
+/* services section */
+.service-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: #5e5e61 solid 1px;
+    border-radius: 4px;
+}
+
+.service-list li {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    /* margin-top: 14px; */
+}
+
+.service-list li a {
+    text-decoration: none;
+    color: #FDB913;
+}
+
+.view {
+    background-color: #1F2B6C;
+}
+
+.service-list li:hover {
+    color: #FDB913;
+    background-color: #1F2B6C;
+}
+
+.service-list div {
+    padding: 15px;
+    padding-bottom: 22px;
+    padding-top: 22px;
+}
+
+
+.sideInfo {
+    float: right;
+    width: 50%;
+    /* padding: 0 10px; */
+    /* background-color:bisque; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sideInfo h3 {
+    font-size: 32px;
+    margin: 0px;
+}
+
+.sideInfoData {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.sideInfo ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    font-size: 24px;
+    /* padding: 0; */
+    font-weight: 600;
+}
+
+.sideInfo ul li {
+    padding: 8px;
+}
+
+.sideInfo ul li::marker {
+    color: #4FD1D9;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    width: 80%;
+}
+
+/* services section ends */
+
+/* speciality section */
+.column {
+    float: left;
+    width: 20%;
+    /* padding: 4px 15px; */
+    border: 0.15px solid lightgray;
+    height: auto;
+}
+
+.columnSpeciality {
+    width: 248px;
+    height: 172px;
+}
+
+@media screen and (max-width: 768px) {
+    .columnSpeciality {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 160px;
+    }
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    /* margin: 25px 0px; */
+    display: flex;
+    justify-content: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cardRe {
+    padding: 5px;
+    text-align: center;
+}
+
+/* speciality section ends */
+
+/* book appointment */
+.bookAnAppointment img {
+    opacity: 0.4;
+    width: 100%;
+}
+
+.bookAnAppointment {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.onYourLeft {
+    position: absolute;
+    left: 10%;
+    font-size: 30px;
+    width: 29%;
+    margin-top: 19%;
+}
+
+.onYourLeft p {
+    font-size: 16px;
+}
+
+.onYourRight {
+    /* float: right;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    position: absolute;
+    right: 10%;
+    margin-top: 10%;
+}
+
+/* .onYourRight table{
+   border: 1px solid black; 
+    
+} */
+.onYourRight table td input {
+    height: 50px;
+    width: 240px;
+    /* background-color: #D7EFFC; */
+    background-color: inherit;
+    border: 0;
+    /* border-bottom: 3px solid #FDB913; */
+}
+
+.onYourRight table tr {
+    border-bottom: 2px solid #FDB913;
+}
+
+.onYourRight table td select {
+    height: 50px;
+    width: 240px;
+    /* background-color: #D7EFFC; */
+    background-color: inherit;
+
+    border: 0;
+}
+
+.onYourRight button {
+    height: 41px;
+    width: 100%;
+    border: none;
+    background-color: #FDB913;
+    color: #1F2B6C;
+    font-size: 16px
+}
+
+.leftBorderTr {
+    border-right: 2px solid #FDB913;
+}
+
+.message {
+    width: 100%;
+    height: 135px;
+}
+
+table {
+    background-color: #D7EFFC;
+    border-collapse: collapse;
+}
+@media screen and (max-width: 768px){
+    .bookAnAppointment{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .bookAnAppointment img{
+        display: none;
+    }
+    .onYourLeft{
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: unset;
+    }
+    .resp2{
+        text-align: justify;
+    }
+    .onYourRight2{
+        display: block !important;
+    }
+    
+}
+
+/* book appointment ends */
+
+/* international patients */
+.tablerow div {
+    display: inline-block;
+    padding: 17px;
+    /* width: 17%; */
+    height: 137px;
+    width: 180px;
+}
+
+.tablerow {
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 66%; */
+    align-items: center;
+    /* margin: auto; */
+
+    justify-content: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* international patients ends */
+
+/* our doctors */
+.doctorsAssemble {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 67%;
+    margin: auto;
+}
+
+.doctorInfo {
+    background-color: #FDB91399;
+    color: #1F2B6C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.doctorInfo button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.viewProfile {
+    background-color: #FDB913;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.viewProfile button {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .doctorsAssemble {
+        width: fit-content !important;
+        display: block;
+    }
+    .ourDoc{
+
+    }
+    
+}
+
+/* our doctors ends */
+
+/* blog section */
+.dateText {
+    font-size: 10px;
+    color: #77C6F3;
+}
+
+.cardRe button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.column2 {
+    border: none;
+    width: 32%;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 14px;
+}
+
+.blogicon h4 {
+    font-weight: 400;
+    display: inline-block;
+    font-size: 16px;
+}
+@media screen and (max-width: 768px){
+    .column2{
+        width: 100% !important;
+    }
+    
+}
+
+/* blog section ends */
+
+/* contact section */
+.cardAgain {
+    width: 200px;
+    height: 200px;
+    background-color: #FDB913;
+    border-radius: 5px;
+}
+
+.cardDiv {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.cardCenter {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.cardAgain:hover {
+    background-color: #1F2B6C;
+}
+
+@media screen and (max-width: 768px){
+    .cardCenter h4,p{
+        font-size: 14px !important;
+    }
+    .cardAgain{
+        width: 154px !important;
+        height: 151px !important;
+    }
+    .cardDiv{
+        justify-content: center;
+        width: 100%;
+    }
+}
+/* contact section ends */
+
+/* footer section */
+.footer {
+    background-color: #1F2B6C;
+
+}
+
+.footerSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+hr {
+    color: #FDB913;
+}
+
+@media screen and (max-width: 768px){
+    .footerSub{
+        flex-direction: column;
+    }
+    .footerSub div p{
+        font-size: 14px !important;
+    }
+    .lastFoot{
+        text-align: center;
+        width: 50%;
+        display: block;
+        float: none
+    }
+    .Newsletter{
+        width: 62% !important;
+    }
+    
+}
+
+/* footer section ends */

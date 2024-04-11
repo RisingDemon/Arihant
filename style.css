@@ -1,0 +1,387 @@
+/* header section */
+.main-head {
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    /* top: 0px; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+/* .logo {
+    /* position: absolute;
+    left: 3.07%;
+    right: 73.36%; */
+/* top: 26.09%;
+bottom: 22.79%; 
+
+
+} */
+
+.head-info {
+    /* position: absolute;
+    left: 40.7%; */
+    /* right: 10.61%; */
+    /* top: 25%;
+    bottom: 22.26%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 41%; */
+}
+
+.sub-info {
+    /* position: absolute; */
+    /* left: 40.7%;
+    right: 47.17%; */
+    /* top: 25%;
+    bottom: 22.26%; */
+    /* height: 42px; */
+    /* width: 165px; */
+    padding-left: 40px;
+
+}
+
+.main-text {
+    /* position: absolute; */
+    left: 44.05%;
+    right: 48.71%;
+    top: 25%;
+    bottom: 51.25%;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    /* Primary */
+    color: #1F2B6C;
+    padding: 0;
+    margin: 0;
+
+}
+
+.sub-text {
+    /* position: absolute; */
+    left: 44.05%;
+    right: 47.17%;
+    top: 51.25%;
+    bottom: 25%;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0;
+    margin: 0;
+    /* Secondary */
+    color: #77C6F3;
+
+
+}
+
+.temp2 {
+    float: left;
+    display: inline;
+    margin-right: 13px;
+}
+
+.temp {
+    float: right;
+    display: inline;
+}
+
+.small-logo {
+    /* float: right; */
+    right: 2%;
+    /* position: absolute; */
+}
+
+.small-logo img {
+    width: 51px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .head-info {
+        display: none;
+    }
+
+    .backupDiv {
+        display: flex !important;
+    }
+
+    .sub-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.backupDiv {
+    display: none;
+}
+
+.appointment {
+    height: 43px;
+    width: 168px;
+    background-color: #FDB913;
+    border-radius: 60px;
+    display: inline-block;
+    margin-left: 27px;
+    margin-right: 30px;
+    align-items: center;
+    display: flex;
+    /* vertical-align: middle; */
+    justify-content: center
+}
+
+.search {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.search img {
+    height: 25px;
+}
+
+.sec {
+    background-color: #1F2B6C !important;
+}
+
+.sec li a {
+    color: white !important;
+}
+
+/* header section ends */
+
+
+/* primary and accent text for section headings */
+.primary-text {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 650;
+    line-height: 140%;
+    left: 186px;
+    top: 356px;
+    /* Primary */
+    color: #1F2B6C;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.accent-text {
+    margin-bottom: 0px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    /* Secondary */
+    color: #77C6F3;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 0;
+}
+
+/* primary and accent text for section headings ends */
+
+/* why arihant and international patients */
+.details-section {
+    background-color: #77c6f366;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.details {
+    padding: 70px;
+    margin-top: 40px;
+}
+
+.details-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .details {
+        width: 75% !important;
+        margin: auto;
+        padding: 0 !important;
+    }
+
+    .details-heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .tablerow{
+        flex-wrap: wrap;
+    }
+    .tablerow div{
+        width: 127px !important;
+        height: 129px !important;
+        margin: 13px 0;
+    }
+    
+}
+
+/* why arihant and international patients ends */
+
+@media screen and (max-width: 700px) {
+    .cardDiv {
+        margin: 0 !important;
+        gap: 4px;
+    }
+
+    /* contact */
+    .resp {
+        /* width: 70% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        margin: 0 !important;
+        /* padding: 12px !important; */
+
+    }
+
+    .resp h1,
+    h2,
+    h3,
+    p {
+        font-size: 15px !important;
+
+    }
+
+    .blog p {
+        font-size: 12px !important;
+        width: 80% !important;
+        margin-top: 2px !important;
+
+    }
+
+    .blog img {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    .blog h4 {
+        font-size: 8px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: auto !important;
+    }
+
+    .blogicon {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center;
+        padding: 0 !important;
+        gap: 3px;
+    }
+
+    .blogicon h4 {
+        font-weight: 400;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .blog {
+        margin-left: 10px !important;
+    }
+
+    .cardRe {
+        padding: 4px !important;
+    }
+
+    /* our doctors */
+    .doctorsAssemble {
+        /* display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-around;
+        width: 67%;
+        margin: auto; */
+    }
+
+    .doctorsAssemble img {
+        width: 200px !important;
+        height: 200px !important;
+        margin: 0 !important;
+    }
+
+    .social img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .doctorInfo {
+        width: 200px !important;
+        margin-bottom: 16px;
+    }
+
+    .doctorInfo h3,
+    p {
+        margin: 2px !important;
+    }
+
+    /* international patients */
+    .tablerow {
+        /* width: 48% !important;
+        flex-wrap: wrap; */
+    }
+
+    .details {
+        /* margin-top: 8px !important; */
+    }
+
+    /* book appointment */
+    /* .bookAnAppointment img {
+        display: none !important;
+    }
+
+    .onYourLeft {
+        display: flex;
+        margin: 8px !important;
+        width: 100% !important;
+        flex-direction: column;
+    }
+
+    .onYourRight table {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .onYourRight {
+        margin-top: 10px !important;
+        display: flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+    } */
+
+    /* speciality section */
+
+}
